@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 1. Homepage -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7393.jpg</image:loc>
+      <image:title>Adrien Liss Photography London — Fine Art Portraits, Headshots &amp; Editorial Direction</image:title>
+    </image:image>
+  </url>
+
+  <!-- 2. Headshots Hub -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/headshots.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_04051.jpg</image:loc>
+      <image:title>Actors &amp; Corporate Headshots London — Adrien Liss Photography</image:title>
+    </image:image>
+  </url>
+
+  <!-- 3. Actors Headshots London -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/actors-headshots-london.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7393.jpg</image:loc>
+      <image:title>Spotlight Actor Headshots London by Adrien Liss</image:title>
+    </image:image>
+  </url>
+
+  <!-- 4. Corporate & Executive Headshots London -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/corporate-headshots.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/3.jpg</image:loc>
+      <image:title>Executive &amp; Corporate Headshots London — Canary Wharf &amp; City of London</image:title>
+    </image:image>
+  </url>
+
+  <!-- 5. Fashion & Agency Model Portfolios -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/fashion.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7706.jpeg</image:loc>
+      <image:title>Fashion Editorial &amp; Model Portfolio Photography London — Adrien Liss</image:title>
+    </image:image>
+  </url>
+
+  <!-- 6. Real Estate & Architectural Photography -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/real-estate.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3500-HDR-2-Edit.jpg</image:loc>
+      <image:title>Prime London Real Estate &amp; Architectural Photography — Adrien Liss</image:title>
+    </image:image>
+  </url>
+
+  <!-- 7. Corporate Events, Tech Summits & Galas -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/events.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/AL_00836.jpg</image:loc>
+      <image:title>Corporate Event, Summit &amp; VIP Gala Photography London — Adrien Liss</image:title>
+    </image:image>
+  </url>
+
+  <!-- 8. Luxury & Fine Art Editorial Weddings -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/weddings.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6445.jpg</image:loc>
+      <image:title>Luxury Fine Art &amp; Editorial Wedding Photography London &amp; Europe — Adrien Liss</image:title>
+    </image:image>
+  </url>
+
+  <!-- 9. Cinematic Video Production -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/video.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 10. Editorial Journal (SEO Blog) -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/blog.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 11. About Adrien Liss -->
+  <url>
+    <loc>https://www.adrienlissphotography.com/about.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/assets/portraits/adrien-about.jpg</image:loc>
+      <image:title>Adrien Liss — Fine Art Photographer &amp; Creative Director in London</image:title>
+    </image:image>
+  </url>
+
+</urlset>
+
