@@ -223,42 +223,44 @@
 
   <!-- Header / Navigation -->
   <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300 bg-[#F6F4F0]/90 backdrop-blur-md border-b border-[#121212]/10">
-    <a href="./index.html?skip=true" class="text-xl font-serif tracking-[0.2em] text-neutral-900 hover:text-neutral-500 transition-colors duration-300 uppercase font-medium">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-neutral-900 uppercase hover:text-[#8C6D3F] transition-colors duration-300">
       ADRIEN LISS
     </a>
-    
+
     <!-- Desktop Navigation -->
-    <nav class="hidden md:flex items-center space-x-7 lg:space-x-8 text-xs uppercase tracking-[0.2em] font-sans">
-      <a href="./index.html?skip=true" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Home</a>
-      <a href="./headshots.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Headshots</a>
-      <a href="./fashion.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Fashion</a>
-      <a href="./real-estate.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Real Estate</a>
-      <a href="./events.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Events</a>
-      <a href="./weddings.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Weddings</a>
-      <a href="./video.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">Video</a>
-      <a href="./blog.html" class="text-neutral-900 border-b border-[#8C6D3F] pb-0.5 font-semibold">Blog</a>
-      <a href="./about.html" class="hover:text-black transition-colors duration-300 text-neutral-600 font-medium">About</a>
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-active text-neutral-900 border-b border-[#8C6D3F] pb-0.5 font-semibold transition-colors duration-300">Blog</a>
+      <a href="./about.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">About</a>
     </nav>
-    
+
     <!-- Mobile Menu Button -->
-    <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-between h-4 w-6 text-neutral-900 focus:outline-none" aria-label="Toggle menu">
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-neutral-900 focus:outline-none" aria-label="Toggle mobile menu">
       <span class="h-0.5 w-full bg-current transition-all"></span>
       <span class="h-0.5 w-full bg-current transition-all"></span>
       <span class="h-0.5 w-full bg-current transition-all"></span>
     </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-6 text-base uppercase tracking-widest font-serif text-neutral-900">
-    <a href="./index.html?skip=true" class="text-neutral-900 hover:opacity-60">Home</a>
-    <a href="./headshots.html" class="text-neutral-600 hover:text-black">Headshots</a>
-    <a href="./fashion.html" class="text-neutral-600 hover:text-black">Fashion</a>
-    <a href="./real-estate.html" class="text-neutral-600 hover:text-black">Real Estate</a>
-    <a href="./events.html" class="text-neutral-600 hover:text-black">Events</a>
-    <a href="./weddings.html" class="text-neutral-600 hover:text-black">Weddings</a>
-    <a href="./video.html" class="text-neutral-600 hover:text-black">Video</a>
-    <a href="./blog.html" class="text-[#8C6D3F] font-semibold border-b border-[#8C6D3F] pb-1">Blog</a>
-    <a href="./about.html" class="text-neutral-600 hover:text-black">About</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+
+    <a href="mailto:adrienliss@gmail.com?subject=Photography%20Inquiry%20%E2%80%94%20Adrien%20Liss" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Inquire</a>
   </div>
 
   <main class="w-full relative pt-24">

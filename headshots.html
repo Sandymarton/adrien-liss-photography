@@ -200,44 +200,50 @@
 <body class="bg-off-black text-warm-white antialiased overflow-x-hidden">
 
   <!-- Header / Navigation -->
-  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300 bg-gradient-to-b from-black/70 via-black/30 to-transparent text-white">
-    <a href="./index.html?skip=true" class="text-xl font-serif tracking-[0.2em] text-white hover:text-neutral-300 transition-colors duration-300 uppercase">
+  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors duration-300">
       ADRIEN LISS
     </a>
-    
+
     <!-- Desktop Navigation -->
-    <nav class="hidden md:flex items-center space-x-8 text-xs uppercase tracking-[0.2em]">
-      <a href="./index.html?skip=true" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Home</a>
-      <a href="./headshots.html" class="text-white border-b border-white pb-0.5 font-medium">Headshots</a>
-      <a href="./fashion.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Fashion</a>
-      <a href="./real-estate.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Real Estate</a>
-      <a href="./events.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Events</a>
-      <a href="./weddings.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Weddings</a>
-      <a href="./video.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Video</a>
-      <a href="./blog.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">Blog</a>
-      <a href="./about.html" class="hover:text-neutral-300 transition-colors duration-300 text-white/80">About</a>
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-active text-accent-gold border-b border-accent-gold pb-0.5 font-semibold transition-colors duration-300">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">About</a>
     </nav>
-    
+
     <!-- Mobile Menu Button -->
-    <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle menu">
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
       <span class="h-0.5 w-full bg-current transition-all"></span>
       <span class="h-0.5 w-full bg-current transition-all"></span>
       <span class="h-0.5 w-full bg-current transition-all"></span>
     </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-off-black z-[90] flex flex-col justify-center items-center space-y-7 text-base uppercase tracking-widest font-serif">
-    <a href="./index.html?skip=true" class="text-white hover:text-neutral-300">Home</a>
-    <a href="./actors-headshots-london.html" class="text-white hover:text-neutral-300">Actors Headshots</a>
-    <a href="./corporate-headshots.html" class="text-white hover:text-neutral-300">Corporate Headshots</a>
-    <a href="./fashion.html" class="text-white/70 hover:text-white">Fashion</a>
-    <a href="./real-estate.html" class="text-white/70 hover:text-white">Real Estate</a>
-    <a href="./events.html" class="text-white/70 hover:text-white">Events</a>
-    <a href="./weddings.html" class="text-white/70 hover:text-white">Weddings</a>
-    <a href="./video.html" class="text-white/70 hover:text-white">Video</a>
-    <a href="./blog.html" class="text-white/70 hover:text-white">Blog</a>
-    <a href="./about.html" class="text-white/70 hover:text-white">About</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+    <div class="w-12 h-px bg-black/15 my-1"></div>
+    <div class="flex items-center gap-6 text-xs font-sans tracking-[0.2em]">
+      <a href="./actors-headshots-london.html" class="text-[#555555] hover:text-[#111111]">Actors Headshots</a>
+      <span class="text-black/20">&bull;</span>
+      <a href="./corporate-headshots.html" class="text-[#555555] hover:text-[#111111]">Corporate Headshots</a>
+    </div>
+    <a href="./actors-headshots-london.html#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Book Session</a>
   </div>
 
   <!-- Gateway Main: 2-Choice Large Split Screen -->
@@ -253,7 +259,7 @@
       <img src="./:assets:portraits:/Headshots:Portrait/AL_03818.jpg" 
            alt="Actors Headshots London - Adrien Liss Photography"
            class="absolute inset-0 w-full h-full transition-transform duration-1000 ease-out group-hover:scale-105 pointer-events-none select-none"
-           style="object-fit: cover !important; object-position: center 50% !important; transform-origin: top center;">
+           style="object-fit: cover !important; object-position: center 22% !important; transform-origin: top center;">
       
       <!-- Refined Dark Vignette Overlay -->
       <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/20 group-hover:from-black/75 group-hover:via-black/25 transition-colors duration-500"></div>
@@ -287,7 +293,7 @@
       <img src="./:assets:portraits:/Headshots:Portrait/Corporate/AL_08740.jpeg" 
            alt="Corporate Headshots London - Adrien Liss Photography"
            class="absolute inset-0 w-full h-full transition-transform duration-1000 ease-out group-hover:scale-105 pointer-events-none select-none"
-           style="object-fit: cover !important; object-position: center top !important; transform-origin: top center;">
+           style="object-fit: cover !important; object-position: center 15% !important; transform-origin: top center;">
       
       <!-- Refined Dark Vignette Overlay -->
       <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/20 group-hover:from-black/75 group-hover:via-black/25 transition-colors duration-500"></div>

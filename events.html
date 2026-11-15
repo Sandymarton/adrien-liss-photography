@@ -325,53 +325,45 @@
 <body class="bg-[#F6F4F0] text-[#111111] selection:bg-accent-gold/30 selection:text-[#111111]">
 
   <!-- Header / Navigation -->
-  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 sm:px-10 lg:px-16 flex justify-between items-center transition-all duration-300">
-    <!-- Left Navigation Links -->
-    <div class="hidden lg:flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="./index.html?skip=true" class="text-white/60 hover:text-white transition-colors font-medium">Home</a>
-      <a href="./headshots.html" class="text-white/60 hover:text-white transition-colors">Headshots</a>
-      <a href="./fashion.html" class="text-white/60 hover:text-white transition-colors">Fashion</a>
-      <a href="./real-estate.html" class="text-white/60 hover:text-white transition-colors">Real Estate</a>
-      <a href="./events.html" class="text-accent-gold border-b border-accent-gold pb-0.5 font-medium">Events</a>
-      <a href="./weddings.html" class="text-white/60 hover:text-white transition-colors">Weddings</a>
-      <a href="./video.html" class="text-white/60 hover:text-white transition-colors">Video</a>
-      <a href="./blog.html" class="text-white/60 hover:text-white transition-colors">Blog</a>
-      <a href="./about.html" class="text-white/60 hover:text-white transition-colors">About</a>
-    </div>
-
-    <!-- Center Brand Monogram -->
-    <a href="./index.html?skip=true" class="font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors">
+  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors duration-300">
       ADRIEN LISS
     </a>
 
-    <!-- Right Quick Links & Commission CTA -->
-    <div class="flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="#narrative-experience" class="hidden sm:inline-block text-white/70 hover:text-white transition-colors">Narrative Reel</a>
-      <a href="#event-archive" class="hidden md:inline-block text-white/70 hover:text-white transition-colors">Full Archive</a>
-      <a href="#booking" class="border-b border-accent-gold pb-0.5 text-accent-gold font-medium hover:text-white hover:border-white transition-colors">Book Event</a>
-      <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-      </button>
-    </div>
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-active text-accent-gold border-b border-accent-gold pb-0.5 font-semibold transition-colors duration-300">Events</a>
+      <a href="./weddings.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">About</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+    </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-6 text-base uppercase tracking-widest font-serif text-[#111111] px-8">
-    <a href="./index.html?skip=true" class="text-[#111111] hover:text-[#8C6D3F]">Home</a>
-    <a href="./headshots.html" class="text-[#555555] hover:text-[#111111]">Headshots</a>
-    <a href="./fashion.html" class="text-[#555555] hover:text-[#111111]">Fashion</a>
-    <a href="./real-estate.html" class="text-[#555555] hover:text-[#111111]">Real Estate</a>
-    <a href="./events.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Events &amp; Summits</a>
-    <a href="./weddings.html" class="text-[#555555] hover:text-[#111111]">Weddings</a>
-    <a href="./video.html" class="text-[#555555] hover:text-[#111111]">Video</a>
-    <a href="./blog.html" class="text-[#555555] hover:text-[#111111]">Blog</a>
-    <a href="./about.html" class="text-[#555555] hover:text-[#111111]">About</a>
-    <div class="w-12 h-px bg-black/15 my-2"></div>
-    <a href="#narrative-experience" class="text-xs font-sans tracking-[0.25em] text-[#555555] hover:text-[#111111]">10 Chapter Narrative</a>
-    <a href="#event-archive" class="text-xs font-sans tracking-[0.25em] text-[#555555] hover:text-[#111111]">Full Event Archive</a>
-    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-widest mt-2 hover:bg-[#8C6D3F] transition-colors">Book Your Event</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+
+    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Book Event</a>
   </div>
 
   <main>

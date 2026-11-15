@@ -326,6 +326,36 @@
       will-change: transform;
     }
 
+    /* Mobile Vertical Gallery Stack for Zero Cropping on Phones */
+    @media (max-width: 767px) {
+      #wedding-ribbon-section {
+        height: auto !important;
+        overflow: visible !important;
+        padding: 4.5rem 1.25rem 3rem !important;
+        background-color: #0B0B0B !important;
+      }
+      .ribbon-track {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: auto !important;
+        gap: 1.75rem !important;
+        transform: none !important;
+      }
+      .ribbon-item {
+        width: 100% !important;
+        height: auto !important;
+        border-right: none !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+      }
+      .ribbon-item img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+        transform: none !important;
+      }
+    }
+
     /* FAQ Accordion Transitions */
     .faq-answer {
       max-height: 0;
@@ -370,55 +400,45 @@
   <div id="ambient-gradient-layer"></div>
 
   <!-- Header / Navigation (Consistent with Headshots, Fashion & Architecture with Frosted Scrim) -->
-  <header class="fixed top-0 left-0 w-full z-[100] py-4 px-6 lg:px-12 flex justify-between items-center transition-all duration-300 bg-black/75 backdrop-blur-md border-b border-white/10 shadow-[0_4px_25px_rgba(0,0,0,0.7)]">
-    <!-- Left Navigation: Site Disciplines -->
-    <div class="hidden lg:flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="./index.html?skip=true" class="text-white/80 hover:text-white transition-colors font-medium nav-shadow">Home</a>
-      <a href="./headshots.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Headshots</a>
-      <a href="./fashion.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Fashion</a>
-      <a href="./real-estate.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Real Estate</a>
-      <a href="./events.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Events</a>
-      <a href="./weddings.html" class="text-accent-gold border-b border-accent-gold pb-0.5 font-semibold nav-shadow">Weddings</a>
-      <a href="./video.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Video</a>
-      <a href="./blog.html" class="text-white/80 hover:text-white transition-colors nav-shadow">Blog</a>
-      <a href="./about.html" class="text-white/80 hover:text-white transition-colors nav-shadow">About</a>
-    </div>
-
-    <!-- Center Monogram / Brand -->
-    <a href="./index.html?skip=true" class="font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors nav-shadow">
+  <header class="fixed top-0 left-0 w-full z-[100] py-5 px-6 lg:px-12 flex justify-between items-center transition-all duration-300 bg-black/75 backdrop-blur-md border-b border-white/10 shadow-[0_4px_25px_rgba(0,0,0,0.7)]">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors duration-300">
       ADRIEN LISS
     </a>
 
-    <!-- Right Links: On-Page Anchors & Booking -->
-    <div class="flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="#wedding-ribbon-section" class="hidden sm:inline-block text-white/85 hover:text-white transition-colors nav-shadow">Wedding Reel</a>
-      <a href="#why-adrien-liss" class="hidden md:inline-block text-white/85 hover:text-white transition-colors nav-shadow">The Difference</a>
-      <a href="#collections" class="hidden md:inline-block text-white/85 hover:text-white transition-colors nav-shadow">Collections</a>
-      <a href="#booking" class="border-b border-accent-gold pb-0.5 text-accent-gold font-medium hover:text-white hover:border-white transition-colors nav-shadow">Reserve Date</a>
-      <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-      </button>
-    </div>
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-active text-accent-gold border-b border-accent-gold pb-0.5 font-semibold transition-colors duration-300">Weddings</a>
+      <a href="./video.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">About</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+    </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-6 text-base uppercase tracking-widest font-serif text-[#111111] px-8">
-    <a href="./index.html?skip=true" class="text-[#111111] hover:text-[#8C6D3F]">Home</a>
-    <a href="./headshots.html" class="text-[#555555] hover:text-[#111111]">Headshots</a>
-    <a href="./fashion.html" class="text-[#555555] hover:text-[#111111]">Fashion &amp; Editorial</a>
-    <a href="./real-estate.html" class="text-[#555555] hover:text-[#111111]">Real Estate</a>
-    <a href="./events.html" class="text-[#555555] hover:text-[#111111]">Events</a>
-    <a href="./weddings.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Weddings &amp; Romance</a>
-    <a href="./video.html" class="text-[#555555] hover:text-[#111111]">Video</a>
-    <a href="./blog.html" class="text-[#555555] hover:text-[#111111]">Blog</a>
-    <a href="./about.html" class="text-[#555555] hover:text-[#111111]">About</a>
-    <div class="w-12 h-px bg-black/15 my-2"></div>
-    <a href="#wedding-ribbon-section" class="text-xs font-sans tracking-[0.25em] text-[#555555] hover:text-[#111111]">Wedding Reel</a>
-    <a href="#why-adrien-liss" class="text-xs font-sans tracking-[0.25em] text-[#555555] hover:text-[#111111]">The Editorial Difference</a>
-    <a href="#collections" class="text-xs font-sans tracking-[0.25em] text-[#555555] hover:text-[#111111]">Wedding Collections</a>
-    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-widest mt-2 hover:bg-[#8C6D3F] transition-colors">Reserve Date</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+
+    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Reserve Date</a>
   </div>
 
   <main class="relative z-10">
@@ -430,7 +450,7 @@
       <img id="hero-bg-img" 
            src="./:assets:weddings-events:/Weddings/0.jpg" 
            alt="Luxury Wedding Photography London - Adrien Liss" 
-           class="absolute inset-0 w-full h-full object-cover object-[75%_22%] md:object-[82%_22%] lg:object-[88%_22%] select-none pointer-events-none scale-105">
+           class="absolute inset-0 w-full h-full object-cover object-[42%_22%] sm:object-[65%_22%] md:object-[82%_22%] lg:object-[88%_22%] select-none pointer-events-none scale-105">
 
       <!-- Multi-Layer Cinematic Scrims (Balanced for text legibility while keeping bride luminous) -->
       <!-- Left-to-Right Soft Obsidian Vignette -->
@@ -564,7 +584,7 @@
         </div>
 
         <!-- Ribbon Item 3: London Registry Town Hall Civil Ceremony Vows -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openWeddingLightbox('./:assets:weddings-events:/Weddings/AL_07516.jpg', 'The Exchange of Vows &bull; London Town Hall Civil Marriage')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:weddings-events:/Weddings/AL_07516.jpg" 
@@ -676,7 +696,7 @@
         </div>
 
         <!-- Ribbon Item 11: The Dancing Veil in Countryside Wind -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openWeddingLightbox('./:assets:weddings-events:/Weddings/AL_09137.jpg', 'The Dancing Veil &bull; Windborne Countryside Romance')">
           <img class="w-full h-full object-cover object-[center_20%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:weddings-events:/Weddings/AL_09137.jpg" 
@@ -690,7 +710,7 @@
         </div>
 
         <!-- Ribbon Item 12: Amber Backlight Evening Couple Chemistry -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openWeddingLightbox('./:assets:weddings-events:/Weddings/11.jpg', 'Twilight Seduction &bull; Amber Backlight &amp; Embrace')">
           <img class="w-full h-full object-cover object-[center_30%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:weddings-events:/Weddings/11.jpg" 
@@ -718,7 +738,7 @@
         </div>
 
         <!-- Ribbon Item 14: Grand Town Hall Confetti Exit -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openWeddingLightbox('./:assets:weddings-events:/Weddings/AL_07556.jpg', 'The Grand Exit &bull; Confetti Shower &amp; Cheering Guests')">
           <img class="w-full h-full object-cover object-[center_20%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:weddings-events:/Weddings/AL_07556.jpg" 
@@ -774,7 +794,7 @@
         </div>
 
         <!-- Ribbon Item 18: Dancefloor Celebration Sparks -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openWeddingLightbox('./:assets:weddings-events:/Weddings/4.jpg', 'The Reception Revelry &bull; Euphoric Dancefloor Sparks')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:weddings-events:/Weddings/4.jpg" 
@@ -1444,41 +1464,43 @@
       const items = gsap.utils.toArray(".ribbon-item");
 
       if (ribbonSection && track && items.length > 0) {
-        const getScrollAmount = () => Math.max(0, track.scrollWidth - window.innerWidth);
-        const getScrollMultiplier = () => window.innerWidth < 768 ? 0.75 : 1.3;
+        gsap.matchMedia().add("(min-width: 768px)", () => {
+          const getScrollAmount = () => Math.max(0, track.scrollWidth - window.innerWidth);
+          const getScrollMultiplier = () => 1.3;
 
-        const ribbonTween = gsap.to(track, {
-          x: () => -getScrollAmount(),
-          ease: "none",
-          scrollTrigger: {
-            trigger: ribbonSection,
-            start: "top top",
-            end: () => `+=${getScrollAmount() * getScrollMultiplier()}`,
-            pin: true,
-            scrub: 1.0,
-            invalidateOnRefresh: true,
-            anticipatePin: 1
-          }
-        });
-
-        // Micro-parallax on images inside the ribbon
-        items.forEach((item) => {
-          const img = item.querySelector("img");
-          if (!img) return;
-          gsap.fromTo(img, 
-            { scale: 1.08 },
-            {
-              scale: 1.0,
-              ease: "none",
-              scrollTrigger: {
-                trigger: item,
-                containerAnimation: ribbonTween,
-                start: "left right",
-                end: "right left",
-                scrub: true
-              }
+          const ribbonTween = gsap.to(track, {
+            x: () => -getScrollAmount(),
+            ease: "none",
+            scrollTrigger: {
+              trigger: ribbonSection,
+              start: "top top",
+              end: () => `+=${getScrollAmount() * getScrollMultiplier()}`,
+              pin: true,
+              scrub: 1.0,
+              invalidateOnRefresh: true,
+              anticipatePin: 1
             }
-          );
+          });
+
+          // Micro-parallax on images inside the ribbon
+          items.forEach((item) => {
+            const img = item.querySelector("img");
+            if (!img) return;
+            gsap.fromTo(img, 
+              { scale: 1.08 },
+              {
+                scale: 1.0,
+                ease: "none",
+                scrollTrigger: {
+                  trigger: item,
+                  containerAnimation: ribbonTween,
+                  start: "left right",
+                  end: "right left",
+                  scrub: true
+                }
+              }
+            );
+          });
         });
 
         window.addEventListener('load', () => {

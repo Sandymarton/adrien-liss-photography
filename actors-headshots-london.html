@@ -344,56 +344,50 @@
 <body class="bg-white text-editorial-black antialiased selection:bg-black selection:text-white">
 
   <!-- Header / Navigation (Editorial Minimal Bar) -->
-  <header class="fixed top-0 left-0 w-full z-[100] py-5 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
-    <div class="hidden lg:flex items-center space-x-5 text-[11px] uppercase tracking-[0.2em] font-sans">
-      <a href="./index.html?skip=true" class="text-neutral-600 hover:text-black transition-colors">Home</a>
-      <a href="./headshots.html" class="text-black font-semibold border-b border-black pb-0.5">Headshots</a>
-      <a href="./fashion.html" class="text-neutral-600 hover:text-black transition-colors">Fashion</a>
-      <a href="./real-estate.html" class="text-neutral-600 hover:text-black transition-colors">Real Estate</a>
-      <a href="./events.html" class="text-neutral-600 hover:text-black transition-colors">Events</a>
-      <a href="./weddings.html" class="text-neutral-600 hover:text-black transition-colors">Weddings</a>
-      <a href="./video.html" class="text-neutral-600 hover:text-black transition-colors">Video</a>
-      <a href="./blog.html" class="text-neutral-600 hover:text-black transition-colors">Blog</a>
-      <a href="./about.html" class="text-neutral-600 hover:text-black transition-colors">About</a>
-    </div>
-    <div class="flex lg:hidden items-center space-x-4">
-      <a href="./index.html?skip=true" class="text-xs uppercase tracking-[0.22em] text-neutral-600 hover:text-black font-sans transition-colors font-medium">Home</a>
-      <a href="./headshots.html" class="hidden sm:inline-block text-xs uppercase tracking-[0.22em] text-neutral-600 hover:text-black font-sans transition-colors">Headshots</a>
-    </div>
-
-    <!-- Center Monogram / Brand -->
-    <a href="./index.html?skip=true" class="font-serif tracking-[0.25em] text-xl font-medium text-neutral-900 uppercase hover:opacity-70 transition-opacity">
+  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-neutral-900 uppercase hover:text-[#8C6D3F] transition-colors duration-300">
       ADRIEN LISS
     </a>
 
-    <!-- Right Links -->
-    <div class="flex items-center space-x-6 text-xs uppercase tracking-[0.22em] font-sans">
-      <a href="#portfolio" class="hidden sm:inline-block text-neutral-900 font-medium hover:opacity-60 transition-opacity">Work</a>
-      <a href="./corporate-headshots.html" class="hidden md:inline-block text-neutral-600 hover:text-black transition-colors">Corporate</a>
-      <a href="#pricing" class="hidden sm:inline-block text-neutral-600 hover:text-black transition-colors">Info</a>
-      <a href="#booking" class="border-b border-black pb-0.5 text-neutral-900 font-medium hover:opacity-60 transition-opacity">Book</a>
-      <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-black focus:outline-none" aria-label="Toggle mobile menu">
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-      </button>
-    </div>
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-active text-neutral-900 border-b border-[#8C6D3F] pb-0.5 font-semibold transition-colors duration-300">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">About</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-neutral-900 focus:outline-none" aria-label="Toggle mobile menu">
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+    </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-white z-[90] flex flex-col justify-center items-center space-y-7 text-base uppercase tracking-widest font-serif text-black">
-    <a href="./index.html?skip=true" class="text-black hover:opacity-60">Home</a>
-    <a href="./headshots.html" class="text-black font-semibold">Headshots Gateway</a>
-    <a href="./actors-headshots-london.html" class="text-black border-b border-black pb-1">Actors Headshots</a>
-    <a href="./corporate-headshots.html" class="text-black/60 hover:text-black">Corporate Headshots</a>
-    <a href="./fashion.html" class="text-black/60 hover:text-black">Fashion</a>
-    <a href="./real-estate.html" class="text-black/60 hover:text-black">Real Estate</a>
-    <a href="./events.html" class="text-black/60 hover:text-black">Events</a>
-    <a href="./weddings.html" class="text-black/60 hover:text-black">Weddings</a>
-    <a href="./video.html" class="text-black/60 hover:text-black">Video</a>
-    <a href="./blog.html" class="text-black/60 hover:text-black">Blog</a>
-    <a href="./about.html" class="text-black/60 hover:text-black">About</a>
-    <a href="#booking" class="px-8 py-3 bg-black text-white text-xs font-sans tracking-widest mt-4">Book Session</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+    <div class="w-12 h-px bg-black/15 my-1"></div>
+    <div class="flex items-center gap-6 text-xs font-sans tracking-[0.2em]">
+      <a href="./actors-headshots-london.html" class="text-[#8C6D3F] font-semibold">Actors Headshots</a>
+      <span class="text-black/20">&bull;</span>
+      <a href="./corporate-headshots.html" class="text-[#555555] hover:text-[#111111]">Corporate Headshots</a>
+    </div>
+    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Book Session</a>
   </div>
 
   <main>
@@ -453,7 +447,7 @@
           <img id="hero-photo-img" 
                src="./:assets:portraits:/Headshots:Portrait/_R0B1310%20copy2.jpg" 
                alt="Actors Headshots London - Adrien Liss Studio" 
-               class="w-full h-full object-cover select-none">
+               class="w-full h-full object-cover object-[center_20%] select-none">
         </div>
 
       </div>
@@ -941,12 +935,12 @@
         actorsGrid.innerHTML = '';
         ASSETS_LIST.actors.forEach((src, idx) => {
           const item = document.createElement('div');
-          item.className = 'masonry-item photo-frame overflow-hidden relative group cursor-pointer bg-neutral-100 border border-neutral-200 transition-all duration-300 hover:border-black aspect-[4/5] sm:aspect-[2/3] w-full';
+          item.className = 'masonry-item photo-frame overflow-hidden relative group cursor-pointer bg-neutral-100 border border-neutral-200 transition-all duration-300 hover:border-black w-full';
           
           item.innerHTML = `
             <div class="photo-shutter absolute inset-0 bg-white z-10 origin-top pointer-events-none"></div>
             <img src="${src}" 
-                 class="photo-img w-full h-full object-cover grayscale brightness-50 scale-125 transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100 pointer-events-auto" 
+                 class="photo-img w-full h-auto block object-cover object-top grayscale brightness-50 scale-125 transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100 pointer-events-auto" 
                  alt="Actor Headshot &bull; Adrien Liss Studio" 
                  data-caption="Actor Headshot &bull; Spotlight Casting &bull; London"
                  loading="lazy"

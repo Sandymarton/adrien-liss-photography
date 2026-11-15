@@ -338,110 +338,45 @@
   </div>
 
   <!-- Header / Navigation -->
-  <header id="site-header"
-    class="fixed top-0 left-0 w-full z-[100] py-5 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
-    <!-- Left Navigation: All Site Disciplines / Pages -->
-    <div class="flex-1 flex items-center justify-start min-w-0">
-      <nav
-        class="hidden lg:flex items-center space-x-5 xl:space-x-7 text-[11px] uppercase tracking-[0.2em] font-sans text-neutral-600">
-        <a href="./index.html?skip=true" class="hover:text-black transition-colors font-medium">Home</a>
-        <a href="./headshots.html" class="hover:text-black transition-colors">Headshots</a>
-        <a href="./fashion.html" class="hover:text-black transition-colors">Fashion</a>
-        <a href="./events.html" class="hover:text-black transition-colors">Events</a>
-        <a href="./weddings.html" class="hover:text-black transition-colors">Weddings</a>
-        <a href="./video.html" class="hover:text-black transition-colors">Video</a>
-        <a href="./blog.html" class="hover:text-black transition-colors">Blog</a>
-        <a href="./about.html" class="hover:text-black transition-colors">About</a>
-      </nav>
-      <!-- Intermediate Breakpoint (md: 768px - 1023px) -->
-      <nav
-        class="hidden md:flex lg:hidden items-center space-x-3 text-[10px] uppercase tracking-[0.16em] font-sans text-neutral-600">
-        <a href="./index.html?skip=true" class="hover:text-black transition-colors font-medium">Home</a>
-        <a href="./headshots.html" class="hover:text-black transition-colors">Headshots</a>
-        <a href="./fashion.html" class="hover:text-black transition-colors">Fashion</a>
-        <a href="./events.html" class="hover:text-black transition-colors">Events</a>
-        <a href="./weddings.html" class="hover:text-black transition-colors">Weddings</a>
-        <a href="./video.html" class="hover:text-black transition-colors">Video</a>
-        <a href="./blog.html" class="hover:text-black transition-colors">Blog</a>
-        <a href="./about.html" class="hover:text-black transition-colors">About</a>
-      </nav>
-    </div>
+  <header id="site-header" class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-neutral-900 uppercase hover:text-[#8C6D3F] transition-colors duration-300">
+      ADRIEN LISS
+    </a>
 
-    <!-- Center Brand Monogram -->
-    <div class="flex-shrink-0 text-center px-4">
-      <a href="./index.html?skip=true"
-        class="font-serif tracking-[0.28em] text-xl font-medium text-neutral-900 uppercase hover:opacity-70 transition-opacity inline-block">
-        ADRIEN LISS
-      </a>
-    </div>
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Headshots</a>
+      <a href="./fashion.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Fashion</a>
+      <a href="./real-estate.html" class="nav-active text-neutral-900 border-b border-[#8C6D3F] pb-0.5 font-semibold transition-colors duration-300">Real Estate</a>
+      <a href="./events.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-neutral-600 hover:text-black transition-colors duration-300 font-medium">About</a>
+    </nav>
 
-    <!-- Right Navigation: Current Architecture Page Anchors (Portfolio, Commissions, Booking) -->
-    <div
-      class="flex-1 flex items-center justify-end space-x-6 lg:space-x-8 text-[11px] uppercase tracking-[0.2em] font-sans">
-      <nav class="hidden sm:flex items-center space-x-6 lg:space-x-8 text-neutral-700">
-        <a href="#showcase" class="hover:text-black transition-colors">Portfolio</a>
-        <a href="#services" class="hover:text-black transition-colors">Commissions</a>
-        <a href="#booking"
-          class="border-b border-black pb-0.5 text-neutral-900 font-medium hover:opacity-60 transition-opacity">Book</a>
-      </nav>
-
-      <!-- Mobile Quick CTA & Menu Button -->
-      <a href="#booking"
-        class="sm:hidden text-[10px] uppercase tracking-widest border-b border-black pb-0.5 font-medium mr-2">Book</a>
-      <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-between h-4 w-6 text-black focus:outline-none"
-        aria-label="Toggle mobile menu">
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-      </button>
-    </div>
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-neutral-900 focus:outline-none" aria-label="Toggle mobile menu">
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+    </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu"
-    class="hidden fixed inset-0 bg-white/98 backdrop-blur-xl z-[90] flex flex-col justify-between p-8 sm:p-12 overflow-y-auto">
-    <div class="flex justify-between items-center border-b border-neutral-200 pb-5">
-      <span class="text-xs uppercase tracking-[0.25em] text-neutral-400 font-sans">Navigation</span>
-      <button id="mobile-menu-close" class="text-2xl text-neutral-800 hover:text-black p-2 focus:outline-none"
-        aria-label="Close menu">&times;</button>
-    </div>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Headshots</a>
+    <a href="./fashion.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Fashion</a>
+    <a href="./real-estate.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
 
-    <div class="my-auto py-8 space-y-10">
-      <!-- Current Page Section -->
-      <div>
-        <span class="text-[10px] uppercase tracking-[0.28em] text-neutral-400 block mb-4 font-sans font-medium">Real
-          Estate &amp; Architecture</span>
-        <div class="flex flex-col space-y-4 text-xl sm:text-2xl font-serif text-black">
-          <a href="#showcase" class="hover:opacity-60 transition-opacity">Architectural Portfolio</a>
-          <a href="#services" class="hover:opacity-60 transition-opacity">Commission Tiers &amp; Specs</a>
-          <a href="#booking" class="hover:opacity-60 transition-opacity">Book a Shoot</a>
-        </div>
-      </div>
-
-      <!-- Other Disciplines -->
-      <div class="pt-6 border-t border-neutral-200">
-        <span class="text-[10px] uppercase tracking-[0.28em] text-neutral-400 block mb-4 font-sans font-medium">All
-          Portfolios</span>
-        <div class="grid grid-cols-2 gap-4 text-xs uppercase tracking-[0.2em] font-sans text-neutral-600">
-          <a href="./index.html?skip=true" class="hover:text-black transition-colors font-medium">Home</a>
-          <a href="./headshots.html" class="hover:text-black transition-colors">Headshots</a>
-          <a href="./corporate-headshots.html" class="hover:text-black transition-colors">Corporate</a>
-          <a href="./actors-headshots-london.html" class="hover:text-black transition-colors">Actors</a>
-          <a href="./fashion.html" class="hover:text-black transition-colors">Fashion</a>
-          <a href="./events.html" class="hover:text-black transition-colors">Events</a>
-          <a href="./weddings.html" class="hover:text-black transition-colors">Weddings</a>
-          <a href="./video.html" class="hover:text-black transition-colors">Video</a>
-          <a href="./blog.html" class="hover:text-black transition-colors">Blog</a>
-          <a href="./about.html" class="hover:text-black transition-colors">About</a>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="pt-6 border-t border-neutral-200 flex justify-between items-center text-[10px] uppercase tracking-widest text-neutral-400 font-sans">
-      <a href="./index.html" class="hover:text-black">Home</a>
-      <span>Adrien Liss Photography</span>
-    </div>
+    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Book Shoot</a>
   </div>
 
   <main class="relative z-10">
@@ -716,7 +651,7 @@
         </div>
 
         <!-- Dynamic Staggered Parallax Architectural Wall -->
-        <div id="showcase-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
+        <div id="showcase-grid" class="masonry-grid">
           <!-- Dynamically populated via assets_list.js -->
         </div>
 
@@ -1365,15 +1300,15 @@
       if (showcaseGrid && realEstateAssets.length > 0) {
         realEstateAssets.forEach((src, idx) => {
           const card = document.createElement('div');
-          // Staggered parallax classes
-          card.className = 'showcase-item group relative overflow-hidden bg-neutral-900 border border-neutral-200 cursor-pointer aspect-[3/2]';
+          // Staggered masonry classes preserving natural 3:2 and 2:3 architectural framing
+          card.className = 'masonry-item showcase-item group relative overflow-hidden bg-neutral-900 border border-neutral-200 cursor-pointer';
           card.setAttribute('data-index', idx);
 
           card.innerHTML = `
-            <div class="w-full h-full overflow-hidden relative">
+            <div class="w-full overflow-hidden relative">
               <img src="${src}" 
                    alt="Adrien Liss Architectural Photography - Portfolio Item" 
-                   class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                   class="w-full h-auto block object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                    loading="lazy">
               <!-- Overlay & Editorial Caption -->
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">

@@ -306,6 +306,36 @@
       will-change: transform;
     }
 
+    /* Mobile Vertical Gallery Stack for Zero Cropping on Phones */
+    @media (max-width: 767px) {
+      #fashion-ribbon-section {
+        height: auto !important;
+        overflow: visible !important;
+        padding: 4.5rem 1.25rem 3rem !important;
+        background-color: #0B0B0B !important;
+      }
+      .ribbon-track {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: auto !important;
+        gap: 1.75rem !important;
+        transform: none !important;
+      }
+      .ribbon-item {
+        width: 100% !important;
+        height: auto !important;
+        border-right: none !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+      }
+      .ribbon-item img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+        transform: none !important;
+      }
+    }
+
     /* FAQ Accordion Transitions */
     .faq-answer {
       max-height: 0;
@@ -337,53 +367,45 @@
 <body class="bg-[#F6F4F0] text-[#111111] antialiased selection:bg-black selection:text-white">
 
   <!-- Header / Navigation (Consistent with Headshots & Real Estate Architecture) -->
-  <header class="fixed top-0 left-0 w-full z-[100] py-5 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
-    <!-- Left Navigation: Site Disciplines -->
-    <div class="hidden lg:flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="./index.html?skip=true" class="text-white/60 hover:text-white transition-colors font-medium">Home</a>
-      <a href="./headshots.html" class="text-white/60 hover:text-white transition-colors">Headshots</a>
-      <a href="./fashion.html" class="text-accent-gold border-b border-accent-gold pb-0.5 font-medium">Fashion</a>
-      <a href="./real-estate.html" class="text-white/60 hover:text-white transition-colors">Real Estate</a>
-      <a href="./events.html" class="text-white/60 hover:text-white transition-colors">Events</a>
-      <a href="./weddings.html" class="text-white/60 hover:text-white transition-colors">Weddings</a>
-      <a href="./video.html" class="text-white/60 hover:text-white transition-colors">Video</a>
-      <a href="./blog.html" class="text-white/60 hover:text-white transition-colors">Blog</a>
-      <a href="./about.html" class="text-white/60 hover:text-white transition-colors">About</a>
-    </div>
-
-    <!-- Center Monogram / Brand -->
-    <a href="./index.html?skip=true" class="font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors">
+  <header class="fixed top-0 left-0 w-full z-[100] py-6 px-6 lg:px-12 flex justify-between items-center transition-all duration-300">
+    <a href="./index.html?skip=true" class="brand-logo font-serif tracking-[0.25em] text-xl font-medium text-white uppercase hover:text-accent-gold transition-colors duration-300">
       ADRIEN LISS
     </a>
 
-    <!-- Right Links: On-Page Anchors & Booking -->
-    <div class="flex items-center space-x-6 text-[11px] uppercase tracking-[0.22em] font-sans">
-      <a href="#fashion-ribbon-section" class="hidden sm:inline-block text-white/70 hover:text-white transition-colors">Runway Reel</a>
-      <a href="#model-portfolio" class="hidden md:inline-block text-white/70 hover:text-white transition-colors">Model Books</a>
-      <a href="#booking" class="border-b border-accent-gold pb-0.5 text-accent-gold font-medium hover:text-white hover:border-white transition-colors">Book Shoot</a>
-      <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-        <span class="h-0.5 w-full bg-current transition-all"></span>
-      </button>
-    </div>
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center space-x-7 xl:space-x-8 text-[11px] uppercase tracking-[0.22em] font-sans">
+      <a href="./index.html?skip=true" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Home</a>
+      <a href="./headshots.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Headshots</a>
+      <a href="./fashion.html" class="nav-active text-accent-gold border-b border-accent-gold pb-0.5 font-semibold transition-colors duration-300">Fashion</a>
+      <a href="./real-estate.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Real Estate</a>
+      <a href="./events.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Events</a>
+      <a href="./weddings.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Weddings</a>
+      <a href="./video.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Video</a>
+      <a href="./blog.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">Blog</a>
+      <a href="./about.html" class="nav-link text-white/80 hover:text-white transition-colors duration-300 font-medium">About</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="lg:hidden flex flex-col justify-between h-4 w-6 text-white focus:outline-none" aria-label="Toggle mobile menu">
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+      <span class="h-0.5 w-full bg-current transition-all"></span>
+    </button>
   </header>
 
-  <!-- Mobile Menu Dropdown -->
-  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-6 text-base uppercase tracking-widest font-serif text-[#111111] px-8">
-    <a href="./index.html?skip=true" class="text-[#111111] hover:text-[#8C6D3F]">Home</a>
-    <a href="./headshots.html" class="text-[#111111]/70 hover:text-[#111111]">Headshots</a>
-    <a href="./fashion.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Fashion &amp; Editorial</a>
-    <a href="./real-estate.html" class="text-[#111111]/70 hover:text-[#111111]">Real Estate</a>
-    <a href="./events.html" class="text-[#111111]/70 hover:text-[#111111]">Events</a>
-    <a href="./weddings.html" class="text-[#111111]/70 hover:text-[#111111]">Weddings</a>
-    <a href="./video.html" class="text-[#111111]/70 hover:text-[#111111]">Video</a>
-    <a href="./blog.html" class="text-[#111111]/70 hover:text-[#111111]">Blog</a>
-    <a href="./about.html" class="text-[#111111]/70 hover:text-[#111111]">About</a>
-    <div class="w-12 h-px bg-[#111111]/15 my-2"></div>
-    <a href="#fashion-ribbon-section" class="text-xs font-sans tracking-[0.25em] text-[#111111]/60 hover:text-[#111111]">Runway Reel</a>
-    <a href="#model-portfolio" class="text-xs font-sans tracking-[0.25em] text-[#111111]/60 hover:text-[#111111]">Model Books &amp; Digitals</a>
-    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-widest mt-2 hover:bg-[#8C6D3F] transition-colors">Book Shoot</a>
+  <!-- Full-screen Mobile Menu Overlay -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-[#F6F4F0] z-[90] flex flex-col justify-center items-center space-y-5 text-base uppercase tracking-[0.2em] font-serif text-[#111111] px-8 pt-16">
+    <a href="./index.html?skip=true" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Home</a>
+    <a href="./headshots.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Headshots</a>
+    <a href="./fashion.html" class="text-[#8C6D3F] border-b border-[#8C6D3F] pb-1 font-semibold">Fashion</a>
+    <a href="./real-estate.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Real Estate</a>
+    <a href="./events.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Events</a>
+    <a href="./weddings.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Weddings</a>
+    <a href="./video.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Video</a>
+    <a href="./blog.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">Blog</a>
+    <a href="./about.html" class="text-[#111111]/80 hover:text-[#8C6D3F] transition-colors duration-300">About</a>
+
+    <a href="#booking" class="px-8 py-3 bg-[#111111] text-white text-xs font-sans font-semibold tracking-[0.22em] mt-2 hover:bg-[#8C6D3F] transition-colors">Book Shoot</a>
   </div>
 
   <main>
@@ -395,7 +417,7 @@
       <img id="hero-bg-img" 
            src="./:assets:fashion/Fashion/_MG_7706.jpeg" 
            alt="Fashion and Editorial Photography London - Adrien Liss" 
-           class="absolute inset-0 w-full h-full object-cover object-[center_30%] lg:object-[center_25%] select-none pointer-events-none scale-105">
+           class="absolute inset-0 w-full h-full object-cover object-[62%_25%] sm:object-[center_30%] lg:object-[center_25%] select-none pointer-events-none scale-105">
 
       <!-- Editorial Multi-Layer Dark Vignette for Legibility & Drama -->
       <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/30 pointer-events-none"></div>
@@ -528,7 +550,7 @@
         </div>
 
         <!-- Ribbon Item 4: Ethereal Water Editorial -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/07042011-_MG_2270copy.jpg', 'Ethereal Romance &amp; Couture in Water &bull; Editorial Series')">
           <img class="w-full h-full object-cover object-[center_35%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/07042011-_MG_2270copy.jpg" 
@@ -542,7 +564,7 @@
         </div>
 
         <!-- Ribbon Item 5: Vibrant Beauty Editorial -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_MG_7674.jpg', 'Luminous Commercial Beauty &bull; Vibrant Color Editorial')">
           <img class="w-full h-full object-cover object-[center_20%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_MG_7674.jpg" 
@@ -584,7 +606,7 @@
         </div>
 
         <!-- Ribbon Item 8: London Street Trench Coat Story -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_R0B0217.jpg', 'Autumn Trench Story &bull; London Street Narrative')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_R0B0217.jpg" 
@@ -640,7 +662,7 @@
         </div>
 
         <!-- Ribbon Item 12: Architectural Location Campaign -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_MG_7210.jpg', 'Architectural Location Campaign &bull; London Spaces')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_MG_7210.jpg" 
@@ -682,7 +704,7 @@
         </div>
 
         <!-- Ribbon Item 15: Contemporary Menswear Character -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_R0B0696.jpg', 'Contemporary Menswear Character &bull; Editorial Portrait')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_R0B0696.jpg" 
@@ -724,7 +746,7 @@
         </div>
 
         <!-- Ribbon Item 18: Menswear Lounge & Evening Mood -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_R0B5717.jpg', 'Evening Cocktail Editorial &bull; Luxury Bar Narrative')">
           <img class="w-full h-full object-cover object-[center_20%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_R0B5717.jpg" 
@@ -808,7 +830,7 @@
         </div>
 
         <!-- Ribbon Item 24: Aqua Couture & Submerged Lace -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_MG_7842.jpg', 'Submerged Haute Couture &bull; Aquatic Lace Elegance')">
           <img class="w-full h-full object-cover object-[center_25%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_MG_7842.jpg" 
@@ -836,7 +858,7 @@
         </div>
 
         <!-- Ribbon Item 26: Duo Couture in Wild Ivy -->
-        <div class="ribbon-item w-[85vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
+        <div class="ribbon-item w-[85vw] md:w-[75vw] lg:w-[60vw] xl:w-[55vw] h-screen flex-shrink-0 relative overflow-hidden border-r border-white/10 group cursor-pointer"
              onclick="openFashionLightbox('./:assets:fashion/Fashion/_MG_2131.jpg', 'Enchanted Forest Editorial &bull; Dual Couture Spread')">
           <img class="w-full h-full object-cover object-[center_30%] block transition-transform duration-700 group-hover:scale-105" 
                src="./:assets:fashion/Fashion/_MG_2131.jpg" 
@@ -1461,41 +1483,43 @@
       const items = gsap.utils.toArray(".ribbon-item");
 
       if (ribbonSection && track && items.length > 0) {
-        const getScrollAmount = () => Math.max(0, track.scrollWidth - window.innerWidth);
-        const getScrollMultiplier = () => window.innerWidth < 768 ? 0.75 : 1.3;
+        gsap.matchMedia().add("(min-width: 768px)", () => {
+          const getScrollAmount = () => Math.max(0, track.scrollWidth - window.innerWidth);
+          const getScrollMultiplier = () => 1.3;
 
-        const ribbonTween = gsap.to(track, {
-          x: () => -getScrollAmount(),
-          ease: "none",
-          scrollTrigger: {
-            trigger: ribbonSection,
-            start: "top top",
-            end: () => `+=${getScrollAmount() * getScrollMultiplier()}`,
-            pin: true,
-            scrub: 1.0,
-            invalidateOnRefresh: true,
-            anticipatePin: 1
-          }
-        });
-
-        // Micro-parallax on images inside the ribbon
-        items.forEach((item) => {
-          const img = item.querySelector("img");
-          if (!img) return;
-          gsap.fromTo(img, 
-            { scale: 1.08 },
-            {
-              scale: 1.0,
-              ease: "none",
-              scrollTrigger: {
-                trigger: item,
-                containerAnimation: ribbonTween,
-                start: "left right",
-                end: "right left",
-                scrub: true
-              }
+          const ribbonTween = gsap.to(track, {
+            x: () => -getScrollAmount(),
+            ease: "none",
+            scrollTrigger: {
+              trigger: ribbonSection,
+              start: "top top",
+              end: () => `+=${getScrollAmount() * getScrollMultiplier()}`,
+              pin: true,
+              scrub: 1.0,
+              invalidateOnRefresh: true,
+              anticipatePin: 1
             }
-          );
+          });
+
+          // Micro-parallax on images inside the ribbon
+          items.forEach((item) => {
+            const img = item.querySelector("img");
+            if (!img) return;
+            gsap.fromTo(img, 
+              { scale: 1.08 },
+              {
+                scale: 1.0,
+                ease: "none",
+                scrollTrigger: {
+                  trigger: item,
+                  containerAnimation: ribbonTween,
+                  start: "left right",
+                  end: "right left",
+                  scrub: true
+                }
+              }
+            );
+          });
         });
 
         window.addEventListener('load', () => {
