@@ -1,130 +1,1510 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- 1. Homepage -->
   <url>
     <loc>https://www.adrienlissphotography.com/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7393.jpg</image:loc>
-      <image:title>Adrien Liss Photography London — Fine Art Portraits, Headshots &amp; Editorial Direction</image:title>
+      <image:loc>https://www.adrienlissphotography.com/:assets:hero:/Portrait.jpg</image:loc>
+      <image:title>Adrien Liss Photography London — Fine Art Portraits &amp; Spotlight Headshots</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:hero:/Real%20Estate.jpg</image:loc>
+      <image:title>Prime London Real Estate &amp; Architectural Photography — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:hero:/Wedding.jpg</image:loc>
+      <image:title>Luxury Editorial Wedding Photography London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_03818.jpg</image:loc>
+      <image:title>Spotlight Actor Headshot Portrait London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7706.jpeg</image:loc>
+      <image:title>High Fashion &amp; Couture Editorial Campaign — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3500-HDR-2-Edit.jpg</image:loc>
+      <image:title>Chelsea &amp; Kensington Luxury Residence Dusk Photography — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6445.jpg</image:loc>
+      <image:title>Fine Art Monochrome Wedding Photography London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC2833.jpg</image:loc>
+      <image:title>Executive Leadership Corporate Portrait London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4785-HDR.jpg</image:loc>
+      <image:title>Bespoke Marble Kitchen Interior Design Photography London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/assets/about-me/adrien-liss-portrait.jpg</image:loc>
+      <image:title>Adrien Liss — Photographer, Actor &amp; Creative Director in London</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/IMG_1940.JPG</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #1 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/IMG_1942.JPG</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #2 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/IMG_1943.JPG</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #3 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B0350.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #4 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B0506.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #5 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B0554.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #6 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B0705%20BW%20Nome.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #7 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B1834%20copy%20copy.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #8 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B1874.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #9 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B2042.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #10 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B4504%20copy.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #11 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B4508%20copy.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #12 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B4518%20copy.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #13 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B4561.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #14 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B4724%20copy.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #15 — Adrien Liss Photography</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:family-portrait/Family%20Portraits/_R0B5910%20noir.jpg</image:loc>
+      <image:title>Family &amp; Lifestyle Fine Art Portrait London #16 — Adrien Liss Photography</image:title>
     </image:image>
   </url>
-
-  <!-- 2. Headshots Hub -->
   <url>
     <loc>https://www.adrienlissphotography.com/headshots.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_04051.jpg</image:loc>
-      <image:title>Actors &amp; Corporate Headshots London — Adrien Liss Photography</image:title>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_03818.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight &amp; Theatrical Casting Portraits by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08740.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshots London — Adrien Liss Photography</image:title>
     </image:image>
   </url>
-
-  <!-- 3. Actors Headshots London -->
   <url>
     <loc>https://www.adrienlissphotography.com/actors-headshots-london.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7393.jpg</image:loc>
-      <image:title>Spotlight Actor Headshots London by Adrien Liss</image:title>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #1 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_04051.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #2 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B9029.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #3 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B5447.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #4 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_1560.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #5 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B8478.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #6 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC02018.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #7 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_DSC5034_1.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #8 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_5078.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #9 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_0870.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #10 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_05750.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #11 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC00632.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #12 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/980180_10152930270595227_11317590_o%20Mod%20Fabrizio.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #13 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC02130.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #14 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_07224%20BW.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #15 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7491.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #16 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_04059.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #17 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B9043.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #18 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B5448.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #19 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/431777ab-9e88-4d74-b0cd-fe543714121f.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #20 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B8525.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #21 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC02015.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #22 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B1310%20copy2.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #23 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_5788.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #24 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_MG_3414tre.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #25 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_MG_3202.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #26 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_07031.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #27 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B4929.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #28 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7548.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #29 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC00914.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #30 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7499.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #31 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_03969.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #32 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B9062.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #33 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B5367%20copy.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #34 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/a6e2700a-10a9-4ce6-abf2-12caef445bf7.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #35 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_1558.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #36 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/DSC02057.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #37 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_DSC5046_1.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #38 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_7931.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #39 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_0871.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #40 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_05761.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #41 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_03937.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #42 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Criacci%201.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #43 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_07377.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #44 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Tano%20BW.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #45 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7532%20copy%202.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #46 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_03818.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #47 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B9349.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #48 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/495d360a-8757-4a80-8d9a-75f8377800e6.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #49 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_1557.JPG</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #50 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B8640.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #51 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B1390.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #52 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/IMG_5786.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #53 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/17042011-_MG_3211due.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #54 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_MG_5316.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #55 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_DSC5217.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #56 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B0382%20copy3.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #57 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7658.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #58 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Jack%201-2.jpg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #59 by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_MG_5303red.jpeg</image:loc>
+      <image:title>Actors Headshots London — Spotlight Casting &amp; Drama Portrait #60 by Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 4. Corporate & Executive Headshots London -->
   <url>
     <loc>https://www.adrienlissphotography.com/corporate-headshots.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/3.jpg</image:loc>
-      <image:title>Executive &amp; Corporate Headshots London — Canary Wharf &amp; City of London</image:title>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #1 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/5.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #2 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/1.JPG</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #3 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC2833.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #4 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_00602.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #5 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC00489.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #6 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC07456.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #7 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08659.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #8 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/IMG_1554.JPG</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #9 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B4734.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #10 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/4.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #11 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC4208-2.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #12 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_07373.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #13 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC00281.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #14 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B5147.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #15 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC07667.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #16 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC2872.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #17 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/2.JPG</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #18 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/IMG_1559.JPG</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #19 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B6781.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #20 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC00414.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #21 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC4292-2.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #22 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC09098.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #23 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B7197%20copy.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #24 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08716.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #25 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/IMG_1561.JPG</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #26 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B7836.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #27 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/DSC00462%20copy.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #28 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_DSC2923.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #29 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B5164.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #30 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08596.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #31 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B7839.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #32 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08683.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #33 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B4747.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #34 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08740.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #35 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/_R0B7917.jpg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #36 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_08731.jpeg</image:loc>
+      <image:title>Corporate &amp; Executive Headshot London (City, Mayfair &amp; Canary Wharf) #37 — Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 5. Fashion & Agency Model Portfolios -->
   <url>
     <loc>https://www.adrienlissphotography.com/fashion.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/07042011-_MG_2270copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #1 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/221028_210895828942610_100000665824836_637114_1785882_o.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #2 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/224122_210448732320653_100000665824836_634334_1202017_n.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #3 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/243201_210596418972551_100000665824836_635154_4728799_o.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #4 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/967135_10152936891040227_1702565438_o.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #5 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/980180_10152930270595227_11317590_o%20Mod%20Fabrizio.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #6 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/981480_10152936889845227_1888803345_o.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #7 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/AL_07191.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #8 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/DSC00575.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #9 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/DSC00580%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #10 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_1738%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #11 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_2131.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #12 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_3737%20copy%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #13 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_3810.jpeg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #14 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_4170due.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #15 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_4357%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #16 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_4882due.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #17 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_4919piuI%CC%80%C2%80grande.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #18 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_5303red.jpeg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #19 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_5316.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #20 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7210.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #21 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7674.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #22 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7701.jpeg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #23 — Adrien Liss</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7706.jpeg</image:loc>
-      <image:title>Fashion Editorial &amp; Model Portfolio Photography London — Adrien Liss</image:title>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #24 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7792.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #25 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7842.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #26 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B0210%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #27 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B0217.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #28 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B0696.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #29 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B4418%20copy%202.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #30 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B4422.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #31 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B4452.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #32 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B5717.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #33 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B6419.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #34 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B6425%20copy.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #35 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B8883.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #36 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B8896.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #37 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B8902.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #38 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B8940.jpg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #39 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/colorstrange.jpeg</image:loc>
+      <image:title>London Fashion Editorial &amp; Signed Agency Model Portfolio Look #40 — Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 6. Real Estate & Architectural Photography -->
   <url>
     <loc>https://www.adrienlissphotography.com/real-estate.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/270375_no_wmo_1ce8ufbsm1ckb16kc1pkh1658b7an.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #1 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/270377_no_wmo_1ce8ufbsm10151i4013d172d1mgkp.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #2 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/270379_no_wmo_1ce8ufbsm18ha9p019dr13km26mr.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #3 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3169-HDR-2-Edit.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #4 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3189-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #5 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3224-HDR-2.2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #6 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3234-HDR-2%20quadro.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #7 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3234-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #8 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3244-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #9 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3269-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #10 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3274-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #11 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3284-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #12 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3289-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #13 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3344-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #14 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3354-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #15 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3369-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #16 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3375-HDR-2.2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #17 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3395-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #18 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3400-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #19 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3410-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #20 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3420-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #21 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3450-HDR-2.2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #22 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3475-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #23 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3500-HDR-2-Edit.jpg</image:loc>
-      <image:title>Prime London Real Estate &amp; Architectural Photography — Adrien Liss</image:title>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #24 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4338-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #25 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4350-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #26 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4350-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #27 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4353-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #28 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4359-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #29 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4371-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #30 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4380-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #31 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4395-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #32 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4401-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #33 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4437-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #34 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4449-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #35 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4452-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #36 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4455-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #37 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4458-HDR-2.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #38 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4461-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #39 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4476-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #40 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4479-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #41 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4488-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #42 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4506-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #43 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4509-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #44 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4512-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #45 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4521-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #46 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4536-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #47 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4542-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #48 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4545-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #49 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4548-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #50 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4575-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #51 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4578-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #52 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4671-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #53 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4677-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #54 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4689-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #55 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4713-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #56 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4722-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #57 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4731-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #58 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4734-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #59 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4737-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #60 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4740-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #61 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4743-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #62 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4746-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #63 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4749-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #64 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4764-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #65 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4770-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #66 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4773-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #67 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4776-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #68 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4779-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #69 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4782-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #70 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4785-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #71 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4800-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #72 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4803-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #73 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4809-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #74 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4815-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #75 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4818-HDR.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #76 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B0043.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #77 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B0790.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #78 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B0812.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #79 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B1075.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #80 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B1158.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #81 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B1162.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #82 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B1170.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #83 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B6606%202.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #84 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B6606.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #85 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B6630%20copy.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #86 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B6632%20copy.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #87 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_R0B7963.jpg</image:loc>
+      <image:title>Prime London Real Estate, Interior Design &amp; Architectural Photography #88 — Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 7. Corporate Events, Tech Summits & Galas -->
   <url>
     <loc>https://www.adrienlissphotography.com/events.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/AL_00836.jpg</image:loc>
-      <image:title>Corporate Event, Summit &amp; VIP Gala Photography London — Adrien Liss</image:title>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #1 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/AL_01171.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #2 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0396%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #3 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0412%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #4 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0424%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #5 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0442%20copy%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #6 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0447%20copy2.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #7 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0449%20copy2.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #8 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0453%20copy%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #9 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0465%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #10 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0497%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #11 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0511.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #12 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B0635%20copy%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #13 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2496.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #14 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2503.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #15 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2511.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #16 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2527.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #17 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2536.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #18 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2539.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #19 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2544.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #20 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2559.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #21 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2560.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #22 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2566.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #23 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2569.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #24 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2589.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #25 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2597.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #26 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2607.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #27 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2616.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #28 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2621.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #29 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2627.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #30 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2636.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #31 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2655.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #32 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2658.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #33 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2662.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #34 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2697.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #35 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2727.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #36 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2730.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #37 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2747.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #38 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2757.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #39 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2763.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #40 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2812.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #41 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2815.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #42 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2820.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #43 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2825.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #44 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2838.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #45 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2961.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #46 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2976.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #47 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3047.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #48 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3053.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #49 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3068.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #50 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3102.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #51 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3152.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #52 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3154.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #53 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3198.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #54 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3247.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #55 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B3272.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #56 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B6408.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #57 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B6473.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #58 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B6495.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #59 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B6952.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #60 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7011.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #61 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7037.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #62 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7268.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #63 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7749.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #64 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7908%20copy.jpeg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #65 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7926.jpeg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #66 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B7956%20copy.jpg</image:loc>
+      <image:title>Corporate Event, Tech Summit &amp; VIP Gala Photography London #67 — Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 8. Luxury & Fine Art Editorial Weddings -->
   <url>
     <loc>https://www.adrienlissphotography.com/weddings.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/0.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #1 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/1.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #2 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/10.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #3 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/11.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #4 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/2.jpeg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #5 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/3.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #6 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/4.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #7 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/5.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #8 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/6.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #9 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/7.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #10 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/8.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #11 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/9.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #12 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_07516.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #13 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_07552.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #14 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_07556.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #15 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_07697.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #16 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_09129.jpeg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #17 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_09137.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #18 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_09221.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #19 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_MG_5416.jpg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #20 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6395.jpeg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #21 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6445.jpg</image:loc>
-      <image:title>Luxury Fine Art &amp; Editorial Wedding Photography London &amp; Europe — Adrien Liss</image:title>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #22 — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6470.jpeg</image:loc>
+      <image:title>Luxury Editorial &amp; Fine Art Wedding Photography London &amp; Europe #23 — Adrien Liss</image:title>
     </image:image>
   </url>
-
-  <!-- 9. Cinematic Video Production -->
   <url>
     <loc>https://www.adrienlissphotography.com/video.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Events/_R0B2544.jpg</image:loc>
+      <image:title>Commercial Video Production &amp; Cinematic Showreels London — Adrien Liss</image:title>
+    </image:image>
   </url>
-
-  <!-- 10. Editorial Journal (SEO Blog) -->
   <url>
     <loc>https://www.adrienlissphotography.com/blog.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B7393.jpg</image:loc>
+      <image:title>How to Prepare for Actor Headshots in London — Spotlight Guide by Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/AL_04051.jpg</image:loc>
+      <image:title>Dramatic Casting Archetype — Spotlight Actor Headshots London</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/_R0B5447.jpg</image:loc>
+      <image:title>Contemporary Screen &amp; Theatre Actor Portrait London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/3.jpg</image:loc>
+      <image:title>Executive Corporate Headshots &amp; Personal Branding Guide London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/5.jpg</image:loc>
+      <image:title>Modern Business Portrait for LinkedIn &amp; Press Releases London</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:portraits:/Headshots:Portrait/Corporate/AL_00602.jpg</image:loc>
+      <image:title>C-Suite &amp; Advisory Leadership Portrait London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6445.jpg</image:loc>
+      <image:title>Editorial Wedding Photography in London &amp; Europe Guide — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/AL_07552.jpg</image:loc>
+      <image:title>Unscripted Documentary Wedding Emotion London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:weddings-events:/Weddings/_R0B6395.jpeg</image:loc>
+      <image:title>Luxury Bridal Couture &amp; Fine Art Wedding Photography London</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_MG_7706.jpeg</image:loc>
+      <image:title>How to Build a Signed Model Portfolio &amp; Agency Digitals in London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/AL_07191.jpg</image:loc>
+      <image:title>Studio Model Portfolio Test Shoot London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:fashion/Fashion/_R0B8902.jpg</image:loc>
+      <image:title>High-Contrast Fashion Editorial Study London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3500-HDR-2-Edit.jpg</image:loc>
+      <image:title>Why Architectural &amp; Interior Photography Dictates Prime London Property Value</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC4350-HDR-2.jpg</image:loc>
+      <image:title>Bespoke Interior Design &amp; Conservatory Photography London — Adrien Liss</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.adrienlissphotography.com/:assets:real-estate:/Real%20Estate/_DSC3354-HDR-2.jpg</image:loc>
+      <image:title>Prime London Property Living Space Architectural Photography — Adrien Liss</image:title>
+    </image:image>
   </url>
-
-  <!-- 11. About Adrien Liss -->
   <url>
     <loc>https://www.adrienlissphotography.com/about.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.adrienlissphotography.com/assets/portraits/adrien-about.jpg</image:loc>
-      <image:title>Adrien Liss — Fine Art Photographer &amp; Creative Director in London</image:title>
+      <image:loc>https://www.adrienlissphotography.com/assets/about-me/adrien-liss-portrait.jpg</image:loc>
+      <image:title>Adrien Liss — Fine Art Photographer, Actor &amp; Creative Strategist in London</image:title>
     </image:image>
   </url>
-
 </urlset>
-

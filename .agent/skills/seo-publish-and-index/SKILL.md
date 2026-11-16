@@ -16,9 +16,10 @@ This workspace skill automates **100% free** technical SEO verification, deploym
 
 ## Workflow Steps
 
-### Step 1: Local SEO & Schema.org Audit
-Run the verification script in sandbox mode to confirm all 11 HTML pages have valid `<title>`, `<meta name="description">`, `<link rel="canonical">`, and `application/ld+json` structured data, and that `sitemap.xml`, `robots.txt`, `llms.txt`, and the IndexNow key file exist:
+### Step 1: Regenerate Full Image SEO Sitemap & Run Local Audit
+First, regenerate `sitemap.xml` (so all 360+ portfolio photographs are indexed with SEO titles) and run the verification script:
 ```bash
+python3 .agent/skills/seo-publish-and-index/scripts/generate_image_sitemap.py
 python3 .agent/skills/seo-publish-and-index/scripts/indexnow_submit.py
 ```
 
