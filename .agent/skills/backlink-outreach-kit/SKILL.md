@@ -14,8 +14,8 @@ Always keep NAP 100% identical across every directory, social profile, and portf
 
 - **Business Name:** `Adrien Liss Photography`
 - **Founder / Photographer:** `Adrien Liss`
-- **Location:** `London, United Kingdom` (Serving Central London, Mayfair, Soho, Kensington, Chelsea & Canary Wharf)
-- **Phone:** `+44 7392 653873`
+- **Location / Privacy Rule:** `London, United Kingdom` (Service-Area Business: Central London, Mayfair, Soho, Kensington, Chelsea & Canary Wharf). **NEVER enter or publish a private home street address or residential postcode.** Always select "Service Area / Mobile Business" or "Hide street address" — skip any directory that forces a public residential street address.
+- **Phone:** **OMIT unless strictly required (`*`) by the directory form** (only if mandatory, use `+44 7392 653873`)
 - **Email:** `adrienliss@gmail.com`
 - **Canonical Website URL:** `https://www.adrienlissphotography.com/`
 - **Primary Category:** `Photographer` / `Portrait Studio` / `Commercial Photographer` / `Wedding Photographer`
